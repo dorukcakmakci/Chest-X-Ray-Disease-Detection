@@ -1,1 +1,3 @@
 # Chest-XRay-Disease-Classifier
+
+A Multiclass SVM for chest XRay disease classification. The dataset used for model training can be found in https://www.kaggle.com/nih-chest-xrays/data . The dataset contains 14 different labels for the images. 13 of these labels are for diseases and the other label is to denote there is no finding of the 13 diseases in the corresponding XRay.  Among the 13 disease types, 3 diseases(nodule, cardiomegaly and emphysema) are used for training. The model is trained with 2400, 4800 and 7200 sized subsets of the main dataset. Each image in our dataset is preprocessed(image processing techniques are used) for feature extraction. The test set accuracy of the model is ~45%.
